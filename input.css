@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.btn{
+    @apply text-blue-900 px-8 py-4 bg-green-500 mx-auto;
+}
+.primary-text{
+    @apply text-[#24053E];
+}
+.item{
+    @apply flex flex-col space-y-4 text-center primary-text items-center;
+}
+.number{
+    @apply border border-blue-300 flex justify-center items-center rounded-full w-14 h-14;
+}
